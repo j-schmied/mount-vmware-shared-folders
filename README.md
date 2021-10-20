@@ -19,6 +19,6 @@ sudo ./mount-vmware-shared-folders.sh
 * Kali Linux 
 * Debian
 * Ubuntu
-* So it should work for all Debian based distros for sure, I guess for others as well
+* So it should work for all Debian based distros for sure, for others as well I guess
 
 Have fun!
