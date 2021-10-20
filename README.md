@@ -1,7 +1,7 @@
 # mount-vmware-shared-folders
 
 Mounting shared folders to VMWare made easy!
-This is a simple script to directly mount shared folders inside VMWare Linux VM's.
+This is a very simple script to directly mount shared folders from Host to VMWare Linux VM's.
 
 ## Pre-Requisits
 
