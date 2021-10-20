@@ -11,7 +11,7 @@ This is a simple script to directly mount shared folders inside VMWare Linux VM'
 
 ```bash
 chmod +x mount-vmware-shared-folders.sh
-./mount-vmware-shared-folders.sh
+sudo ./mount-vmware-shared-folders.sh
 ```
 
 ## Tested on:
