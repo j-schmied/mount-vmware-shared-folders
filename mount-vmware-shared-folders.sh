@@ -6,14 +6,19 @@ error_and_exit() {
 }
 
 
+# create mount directory
 sudo mkdir /mnt/hgfs
 
-if sudo touch /etc/rc.local;
+# create rc.local file (often missing)
+if $(sudo touch /etc/rc.local);
 then
+	# mount shared folders into mount directory 
 	if $(sudo mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other);
 	then
+		# change file ownership
 		if $(sudo chown root /etc/rc.local); 
 		then
+			# adjust file permissions
 			if $(sudo chmod 755 /etc/rc.local);
 			then
 				echo "[+] Successfully mounted VMWare shared folder to /mnt/hgfs!"
