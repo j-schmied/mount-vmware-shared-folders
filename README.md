@@ -16,9 +16,10 @@ sudo ./mount-vmware-shared-folders.sh
 
 ## Tested on:
 
-* Kali Linux 
-* Debian
-* Ubuntu
+* VMWare Workstation Player 15, 16
+* Kali Linux 2021.3
+* Debian 10, 11 
+* Ubuntu 20.04
 * So it should work for all Debian based distros for sure, for others as well I guess
 
 Have fun!
